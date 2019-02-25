@@ -1,13 +1,75 @@
-body{
+div{
     font-size: 24px;
     margin-left: 10%;
     background-color: blue;
 }
 
-.topheader{
-    font-size: 40px;
+
+#nopadding{
+    padding :0;
 }
 
-h1{
-    margin: 0%
+#padding{
+    padding:50px;
+}
+
+#toppadding{
+    padding-right:50px;
+}
+
+#rightpadding{
+    padding-right:50px;
+}
+
+#leftpadding{
+    padding-left:50px;
+}
+
+#bottompadding{
+    padding-bottom:50px;
+}
+
+/*order is always TOP RIGHT BOTTOM RIGHT BOOTOM LEFT */
+
+#mixedpadding{
+    padding :10px 40px 100px 20px;
+}
+
+#dottedBorder{
+    border: 3px wavy navy;
+}
+
+#dashedBorder{
+    border: 2px dashed red;
+}
+
+#solidBorder{
+    border: 4px solid yellow;
+}
+
+#doubleBorder{
+    border: 10px double  green;
+}
+
+#grooveBorder{
+    border: 4px groove orange;
+}
+
+#ridgeBorder{
+    border: 5px ridge purple;
+}
+
+#insetborder{
+    border: 20px inset gray;
+}
+
+#outsetBorder{
+    border: 10px outset gray;
+}
+
+/*Top RGHT BOTTOM LEFT*/
+#mixedBorder{
+    border-color: chartreuse;
+    border-style: groove outset inset ridge; 
+    border-width: 20px;
 }
