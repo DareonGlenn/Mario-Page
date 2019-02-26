@@ -4,7 +4,6 @@ div{
     background-color: blue;
 }
 
-
 #nopadding{
     padding :0;
 }
@@ -21,55 +20,16 @@ div{
     padding-right:50px;
 }
 
-#leftpadding{
-    padding-left:50px;
+nav li{
+    font-size: 20px;
+    display: inline-block
 }
 
-#bottompadding{
-    padding-bottom:50px;
+nav ul{
+    font-size: 24px;
+    display: inline-block
 }
 
-/*order is always TOP RIGHT BOTTOM RIGHT BOOTOM LEFT */
-
-#mixedpadding{
-    padding :10px 40px 100px 20px;
-}
-
-#dottedBorder{
-    border: 3px wavy navy;
-}
-
-#dashedBorder{
-    border: 2px dashed red;
-}
-
-#solidBorder{
-    border: 4px solid yellow;
-}
-
-#doubleBorder{
-    border: 10px double  green;
-}
-
-#grooveBorder{
-    border: 4px groove orange;
-}
-
-#ridgeBorder{
-    border: 5px ridge purple;
-}
-
-#insetborder{
-    border: 20px inset gray;
-}
-
-#outsetBorder{
-    border: 10px outset gray;
-}
-
-/*Top RGHT BOTTOM LEFT*/
-#mixedBorder{
-    border-color: chartreuse;
-    border-style: groove outset inset ridge; 
-    border-width: 20px;
+.sectionHeader{
+    color:navy;
 }
